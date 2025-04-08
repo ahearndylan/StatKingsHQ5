@@ -27,20 +27,20 @@ client = tweepy.Client(
 # ======================= #
 
 REPLY_BANK = [
-    "Crowned. 👑 #StatKingsHQ",
-    "Stat Kings certified. ✅👑",
+    "Crowned. 👑 #CourtKingsHQ",
+    "Court Kings certified. ✅👑",
     "On the throne tonight. 🏀👑",
     "Another royal performance. 📊👑",
-    "#StatKingsHQ sees you 👀👑",
-    "Stat royalty. 📈👑",
+    "#CourtKingsHQ sees you 👀👑",
+    "Court royalty. 📈👑",
     "Kings of the box score. 📊👑",
-    "#StatKingsHQ recognized the numbers.",
+    "#CourtKingsHQ recognized the numbers.",
     "Hoop math checks out. 🧠📊👑",
     "This is crown-worthy. 👑",
     "Give this man his flowers and his crown. 🌺👑",
-    "Don’t sleep on royalty. 😴👑",
+    "Don't sleep on royalty. 😴👑",
     "He wears the crown. 🏀💼👑",
-    "Stat Kings got next on this one. ⏳👑"
+    "Court Kings got next on this one. ⏳👑"
 ]
 
 reply_queue = REPLY_BANK * 2
@@ -76,7 +76,7 @@ def find_tweets():
 # ======================= #
 
 def run_bot():
-    print("🤖 Starting Stat Kings HQ Bot (Manual Rate Limit Mode)\n")
+    print("🤖 Starting Court Kings HQ Bot (Manual Rate Limit Mode)\n")
     used_ids = set()
     total_sent = 0
     max_replies = len(REPLY_BANK) * 2
